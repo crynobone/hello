@@ -1,0 +1,27 @@
+{
+	"name": "crynobone/hello",
+	"description": "Hello {Preview} Extension for Orchestra Platform 2",
+	"authors": [
+		{
+			"name": "Mior Muhammad Zaki",
+			"email": "crynobone@gmail.com",
+			"homepage": "https://github.com/crynobone"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"Crynobone\\Hello": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"require-dev": {
+		"illuminate/support": "4.0.*",
+		"orchestra/support": "2.0.*"
+	},
+	"minimum-stability": "dev"
+}
